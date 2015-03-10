@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C0E9BF61AAECD5E00A3234B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0E9BF51AAECD5E00A3234B /* main.m */; };
+		4C0E9BF91AAECD5E00A3234B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0E9BF81AAECD5E00A3234B /* AppDelegate.m */; };
+		4C0E9BFC1AAECD5E00A3234B /* JMSGhostButton.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C0E9BFA1AAECD5E00A3234B /* JMSGhostButton.xcdatamodeld */; };
+		4C0E9BFF1AAECD5E00A3234B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0E9BFE1AAECD5E00A3234B /* ViewController.m */; };
+		4C0E9C021AAECD5E00A3234B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C0E9C001AAECD5E00A3234B /* Main.storyboard */; };
+		4C0E9C041AAECD5E00A3234B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C0E9C031AAECD5E00A3234B /* Images.xcassets */; };
+		4C0E9C071AAECD5E00A3234B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C0E9C051AAECD5E00A3234B /* LaunchScreen.xib */; };
+		4C0E9C131AAECD5E00A3234B /* JMSGhostButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0E9C121AAECD5E00A3234B /* JMSGhostButtonTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C0E9C0D1AAECD5E00A3234B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C0E9BE81AAECD5E00A3234B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C0E9BEF1AAECD5E00A3234B;
+			remoteInfo = JMSGhostButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C0E9BF01AAECD5E00A3234B /* JMSGhostButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMSGhostButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C0E9BF41AAECD5E00A3234B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C0E9BF51AAECD5E00A3234B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C0E9BF71AAECD5E00A3234B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4C0E9BF81AAECD5E00A3234B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4C0E9BFB1AAECD5E00A3234B /* JMSGhostButton.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JMSGhostButton.xcdatamodel; sourceTree = "<group>"; };
+		4C0E9BFD1AAECD5E00A3234B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4C0E9BFE1AAECD5E00A3234B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4C0E9C011AAECD5E00A3234B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C0E9C031AAECD5E00A3234B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4C0E9C061AAECD5E00A3234B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4C0E9C0C1AAECD5E00A3234B /* JMSGhostButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMSGhostButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C0E9C111AAECD5E00A3234B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C0E9C121AAECD5E00A3234B /* JMSGhostButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMSGhostButtonTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C0E9BED1AAECD5E00A3234B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C0E9C091AAECD5E00A3234B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C0E9BE71AAECD5E00A3234B = {
+			isa = PBXGroup;
+			children = (
+				4C0E9BF21AAECD5E00A3234B /* JMSGhostButton */,
+				4C0E9C0F1AAECD5E00A3234B /* JMSGhostButtonTests */,
+				4C0E9BF11AAECD5E00A3234B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C0E9BF11AAECD5E00A3234B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C0E9BF01AAECD5E00A3234B /* JMSGhostButton.app */,
+				4C0E9C0C1AAECD5E00A3234B /* JMSGhostButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C0E9BF21AAECD5E00A3234B /* JMSGhostButton */ = {
+			isa = PBXGroup;
+			children = (
+				4C0E9BF71AAECD5E00A3234B /* AppDelegate.h */,
+				4C0E9BF81AAECD5E00A3234B /* AppDelegate.m */,
+				4C0E9BFD1AAECD5E00A3234B /* ViewController.h */,
+				4C0E9BFE1AAECD5E00A3234B /* ViewController.m */,
+				4C0E9C001AAECD5E00A3234B /* Main.storyboard */,
+				4C0E9C031AAECD5E00A3234B /* Images.xcassets */,
+				4C0E9C051AAECD5E00A3234B /* LaunchScreen.xib */,
+				4C0E9BFA1AAECD5E00A3234B /* JMSGhostButton.xcdatamodeld */,
+				4C0E9BF31AAECD5E00A3234B /* Supporting Files */,
+			);
+			path = JMSGhostButton;
+			sourceTree = "<group>";
+		};
+		4C0E9BF31AAECD5E00A3234B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C0E9BF41AAECD5E00A3234B /* Info.plist */,
+				4C0E9BF51AAECD5E00A3234B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C0E9C0F1AAECD5E00A3234B /* JMSGhostButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C0E9C121AAECD5E00A3234B /* JMSGhostButtonTests.m */,
+				4C0E9C101AAECD5E00A3234B /* Supporting Files */,
+			);
+			path = JMSGhostButtonTests;
+			sourceTree = "<group>";
+		};
+		4C0E9C101AAECD5E00A3234B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C0E9C111AAECD5E00A3234B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C0E9BEF1AAECD5E00A3234B /* JMSGhostButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C0E9C161AAECD5E00A3234B /* Build configuration list for PBXNativeTarget "JMSGhostButton" */;
+			buildPhases = (
+				4C0E9BEC1AAECD5E00A3234B /* Sources */,
+				4C0E9BED1AAECD5E00A3234B /* Frameworks */,
+				4C0E9BEE1AAECD5E00A3234B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JMSGhostButton;
+			productName = JMSGhostButton;
+			productReference = 4C0E9BF01AAECD5E00A3234B /* JMSGhostButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C0E9C0B1AAECD5E00A3234B /* JMSGhostButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C0E9C191AAECD5E00A3234B /* Build configuration list for PBXNativeTarget "JMSGhostButtonTests" */;
+			buildPhases = (
+				4C0E9C081AAECD5E00A3234B /* Sources */,
+				4C0E9C091AAECD5E00A3234B /* Frameworks */,
+				4C0E9C0A1AAECD5E00A3234B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C0E9C0E1AAECD5E00A3234B /* PBXTargetDependency */,
+			);
+			name = JMSGhostButtonTests;
+			productName = JMSGhostButtonTests;
+			productReference = 4C0E9C0C1AAECD5E00A3234B /* JMSGhostButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C0E9BE81AAECD5E00A3234B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Jamesan;
+				TargetAttributes = {
+					4C0E9BEF1AAECD5E00A3234B = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					4C0E9C0B1AAECD5E00A3234B = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 4C0E9BEF1AAECD5E00A3234B;
+					};
+				};
+			};
+			buildConfigurationList = 4C0E9BEB1AAECD5E00A3234B /* Build configuration list for PBXProject "JMSGhostButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C0E9BE71AAECD5E00A3234B;
+			productRefGroup = 4C0E9BF11AAECD5E00A3234B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C0E9BEF1AAECD5E00A3234B /* JMSGhostButton */,
+				4C0E9C0B1AAECD5E00A3234B /* JMSGhostButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C0E9BEE1AAECD5E00A3234B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C0E9C021AAECD5E00A3234B /* Main.storyboard in Resources */,
+				4C0E9C071AAECD5E00A3234B /* LaunchScreen.xib in Resources */,
+				4C0E9C041AAECD5E00A3234B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C0E9C0A1AAECD5E00A3234B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C0E9BEC1AAECD5E00A3234B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C0E9BF91AAECD5E00A3234B /* AppDelegate.m in Sources */,
+				4C0E9BF61AAECD5E00A3234B /* main.m in Sources */,
+				4C0E9BFF1AAECD5E00A3234B /* ViewController.m in Sources */,
+				4C0E9BFC1AAECD5E00A3234B /* JMSGhostButton.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C0E9C081AAECD5E00A3234B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C0E9C131AAECD5E00A3234B /* JMSGhostButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C0E9C0E1AAECD5E00A3234B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C0E9BEF1AAECD5E00A3234B /* JMSGhostButton */;
+			targetProxy = 4C0E9C0D1AAECD5E00A3234B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C0E9C001AAECD5E00A3234B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C0E9C011AAECD5E00A3234B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C0E9C051AAECD5E00A3234B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C0E9C061AAECD5E00A3234B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C0E9C141AAECD5E00A3234B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4C0E9C151AAECD5E00A3234B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C0E9C171AAECD5E00A3234B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JMSGhostButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4C0E9C181AAECD5E00A3234B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JMSGhostButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4C0E9C1A1AAECD5E00A3234B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JMSGhostButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JMSGhostButton.app/JMSGhostButton";
+			};
+			name = Debug;
+		};
+		4C0E9C1B1AAECD5E00A3234B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JMSGhostButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JMSGhostButton.app/JMSGhostButton";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C0E9BEB1AAECD5E00A3234B /* Build configuration list for PBXProject "JMSGhostButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C0E9C141AAECD5E00A3234B /* Debug */,
+				4C0E9C151AAECD5E00A3234B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C0E9C161AAECD5E00A3234B /* Build configuration list for PBXNativeTarget "JMSGhostButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C0E9C171AAECD5E00A3234B /* Debug */,
+				4C0E9C181AAECD5E00A3234B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4C0E9C191AAECD5E00A3234B /* Build configuration list for PBXNativeTarget "JMSGhostButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C0E9C1A1AAECD5E00A3234B /* Debug */,
+				4C0E9C1B1AAECD5E00A3234B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4C0E9BFA1AAECD5E00A3234B /* JMSGhostButton.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4C0E9BFB1AAECD5E00A3234B /* JMSGhostButton.xcdatamodel */,
+			);
+			currentVersion = 4C0E9BFB1AAECD5E00A3234B /* JMSGhostButton.xcdatamodel */;
+			path = JMSGhostButton.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4C0E9BE81AAECD5E00A3234B /* Project object */;
+}
