@@ -17,6 +17,7 @@
 		4C0E9C131AAECD5E00A3234B /* JMSGhostButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0E9C121AAECD5E00A3234B /* JMSGhostButtonTests.m */; };
 		4C0E9C221AAECD7100A3234B /* back_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C0E9C1C1AAECD7100A3234B /* back_button@2x.png */; };
 		4C0E9C291AAED2A700A3234B /* ghostButton in Resources */ = {isa = PBXBuildFile; fileRef = 4C0E9C281AAED2A700A3234B /* ghostButton */; };
+		4C28F4861AAF295B0008137B /* ghostButtonResource in Resources */ = {isa = PBXBuildFile; fileRef = 4C28F4851AAF295B0008137B /* ghostButtonResource */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		4C0E9C121AAECD5E00A3234B /* JMSGhostButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMSGhostButtonTests.m; sourceTree = "<group>"; };
 		4C0E9C1C1AAECD7100A3234B /* back_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_button@2x.png"; sourceTree = "<group>"; };
 		4C0E9C281AAED2A700A3234B /* ghostButton */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ghostButton; sourceTree = "<group>"; };
+		4C28F4851AAF295B0008137B /* ghostButtonResource */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ghostButtonResource; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 		4C0E9BE71AAECD5E00A3234B = {
 			isa = PBXGroup;
 			children = (
+				4C28F4851AAF295B0008137B /* ghostButtonResource */,
 				4C0E9C281AAED2A700A3234B /* ghostButton */,
 				4C0E9BF21AAECD5E00A3234B /* JMSGhostButtonExample */,
 				4C0E9C0F1AAECD5E00A3234B /* JMSGhostButtonTests */,
@@ -209,6 +212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C28F4861AAF295B0008137B /* ghostButtonResource in Resources */,
 				4C0E9C021AAECD5E00A3234B /* Main.storyboard in Resources */,
 				4C0E9C071AAECD5E00A3234B /* LaunchScreen.xib in Resources */,
 				4C0E9C291AAED2A700A3234B /* ghostButton in Resources */,
@@ -425,6 +429,7 @@
 				4C0E9C181AAECD5E00A3234B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C0E9C191AAECD5E00A3234B /* Build configuration list for PBXNativeTarget "JMSGhostButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -433,6 +438,7 @@
 				4C0E9C1B1AAECD5E00A3234B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
