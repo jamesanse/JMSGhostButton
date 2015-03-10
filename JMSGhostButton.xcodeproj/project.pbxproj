@@ -15,6 +15,10 @@
 		4C0E9C041AAECD5E00A3234B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C0E9C031AAECD5E00A3234B /* Images.xcassets */; };
 		4C0E9C071AAECD5E00A3234B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C0E9C051AAECD5E00A3234B /* LaunchScreen.xib */; };
 		4C0E9C131AAECD5E00A3234B /* JMSGhostButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0E9C121AAECD5E00A3234B /* JMSGhostButtonTests.m */; };
+		4C0E9C221AAECD7100A3234B /* back_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C0E9C1C1AAECD7100A3234B /* back_button@2x.png */; };
+		4C0E9C231AAECD7100A3234B /* UIImage+NRSTint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0E9C1E1AAECD7100A3234B /* UIImage+NRSTint.m */; };
+		4C0E9C241AAECD7100A3234B /* JMSGhostButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0E9C201AAECD7100A3234B /* JMSGhostButton.m */; };
+		4C0E9C251AAECD7100A3234B /* NRSGhostButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C0E9C211AAECD7100A3234B /* NRSGhostButton.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +46,12 @@
 		4C0E9C0C1AAECD5E00A3234B /* JMSGhostButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMSGhostButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C0E9C111AAECD5E00A3234B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C0E9C121AAECD5E00A3234B /* JMSGhostButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMSGhostButtonTests.m; sourceTree = "<group>"; };
+		4C0E9C1C1AAECD7100A3234B /* back_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_button@2x.png"; sourceTree = "<group>"; };
+		4C0E9C1D1AAECD7100A3234B /* UIImage+NRSTint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+NRSTint.h"; sourceTree = "<group>"; };
+		4C0E9C1E1AAECD7100A3234B /* UIImage+NRSTint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+NRSTint.m"; sourceTree = "<group>"; };
+		4C0E9C1F1AAECD7100A3234B /* JMSGhostButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMSGhostButton.h; sourceTree = "<group>"; };
+		4C0E9C201AAECD7100A3234B /* JMSGhostButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMSGhostButton.m; sourceTree = "<group>"; };
+		4C0E9C211AAECD7100A3234B /* NRSGhostButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NRSGhostButton.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +75,8 @@
 		4C0E9BE71AAECD5E00A3234B = {
 			isa = PBXGroup;
 			children = (
-				4C0E9BF21AAECD5E00A3234B /* JMSGhostButton */,
+				4C0E9C261AAECD7700A3234B /* ghostButton */,
+				4C0E9BF21AAECD5E00A3234B /* JMSGhostButtonExample */,
 				4C0E9C0F1AAECD5E00A3234B /* JMSGhostButtonTests */,
 				4C0E9BF11AAECD5E00A3234B /* Products */,
 			);
@@ -80,9 +91,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4C0E9BF21AAECD5E00A3234B /* JMSGhostButton */ = {
+		4C0E9BF21AAECD5E00A3234B /* JMSGhostButtonExample */ = {
 			isa = PBXGroup;
 			children = (
+				4C0E9C1C1AAECD7100A3234B /* back_button@2x.png */,
 				4C0E9BF71AAECD5E00A3234B /* AppDelegate.h */,
 				4C0E9BF81AAECD5E00A3234B /* AppDelegate.m */,
 				4C0E9BFD1AAECD5E00A3234B /* ViewController.h */,
@@ -93,6 +105,7 @@
 				4C0E9BFA1AAECD5E00A3234B /* JMSGhostButton.xcdatamodeld */,
 				4C0E9BF31AAECD5E00A3234B /* Supporting Files */,
 			);
+			name = JMSGhostButtonExample;
 			path = JMSGhostButton;
 			sourceTree = "<group>";
 		};
@@ -120,6 +133,19 @@
 				4C0E9C111AAECD5E00A3234B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C0E9C261AAECD7700A3234B /* ghostButton */ = {
+			isa = PBXGroup;
+			children = (
+				4C0E9C1D1AAECD7100A3234B /* UIImage+NRSTint.h */,
+				4C0E9C1E1AAECD7100A3234B /* UIImage+NRSTint.m */,
+				4C0E9C1F1AAECD7100A3234B /* JMSGhostButton.h */,
+				4C0E9C201AAECD7100A3234B /* JMSGhostButton.m */,
+				4C0E9C211AAECD7100A3234B /* NRSGhostButton.xib */,
+			);
+			name = ghostButton;
+			path = JMSGhostButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +231,8 @@
 				4C0E9C021AAECD5E00A3234B /* Main.storyboard in Resources */,
 				4C0E9C071AAECD5E00A3234B /* LaunchScreen.xib in Resources */,
 				4C0E9C041AAECD5E00A3234B /* Images.xcassets in Resources */,
+				4C0E9C251AAECD7100A3234B /* NRSGhostButton.xib in Resources */,
+				4C0E9C221AAECD7100A3234B /* back_button@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,9 +250,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C0E9C241AAECD7100A3234B /* JMSGhostButton.m in Sources */,
 				4C0E9BF91AAECD5E00A3234B /* AppDelegate.m in Sources */,
 				4C0E9BF61AAECD5E00A3234B /* main.m in Sources */,
 				4C0E9BFF1AAECD5E00A3234B /* ViewController.m in Sources */,
+				4C0E9C231AAECD7100A3234B /* UIImage+NRSTint.m in Sources */,
 				4C0E9BFC1AAECD5E00A3234B /* JMSGhostButton.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
