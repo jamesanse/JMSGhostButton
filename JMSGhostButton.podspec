@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.author             = { "jin" => "jamesanse@gmail.com" }
   s.source       = { :git => "https://github.com/onllm/JMSGhostButton.git", :tag => "1.0.0" }
   s.source_files  = "ghostButton"
-  s.resources = "ghostButtonResource"
+  s.resources = "ghostButtonResource/NRSGhostButton.xib"
   s.requires_arc = true
   s.platform     = :ios, "8.0"
   s.dependency 'FrameAccessor'
