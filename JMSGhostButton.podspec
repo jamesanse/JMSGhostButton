@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.source_files  = "ghostButton"
   s.resources = "ghostButtonResource/NRSGhostButton.xib"
   s.requires_arc = true
-  s.platform     = :ios, “7.0”
+  s.platform     = :ios, "7.0"
   s.dependency 'FrameAccessor'
  
 
